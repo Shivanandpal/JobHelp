@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Autonomous Job Application & Recruiter Mail Tracker
 
 A production-ready Chrome Extension (Manifest V3) and companion Cloud Backend that automates job applications across LinkedIn, Indeed, and Naukri, tracks application statuses in real-time, synchronizes recruiter emails via Gmail API, and provides a 1-click 30-second MCQ feedback mechanism for rejected candidates.
@@ -112,3 +113,6 @@ npm run build
   - 1-Click **"Request Review"** button generates a lightweight MCQ survey.
   - Sends an email to the recruiter containing 1-click options (*"Years of Experience"*, *"Missing Tech Stack"*, *"Salary Mismatch"*, *"Role Already Filled"*).
   - Recruiter submits feedback in under 30 seconds; results appear directly in candidate's dashboard.
+=======
+# JobHelp
+>>>>>>> f09c29e49b821ecfeab75bd4ddb617e798a12e49

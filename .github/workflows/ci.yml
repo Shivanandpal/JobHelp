@@ -1,0 +1,54 @@
+name: CI - Build Backend & Extension
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-backend:
+    name: Build Backend Docker Image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Backend Docker Image
+        run: |
+          docker build ./backend \
+            --file ./backend/Dockerfile \
+            --tag job-auto-apply-backend:latest
+
+  build-extension:
+    name: Build Chrome Extension
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: extension/package-lock.json
+
+      - name: Install Extension Dependencies
+        run: |
+          cd extension
+          npm ci
+
+      - name: Build Extension (Vite / Manifest V3)
+        run: |
+          cd extension
+          npm run build
+
+      - name: Package Extension Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: chrome-extension-dist
+          path: extension/dist/
