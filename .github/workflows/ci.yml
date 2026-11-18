@@ -45,7 +45,7 @@ jobs:
       - name: Build Extension (Vite / Manifest V3)
         run: |
           cd extension
-          npm run build
+          npx vite build
 
       - name: Package Extension Artifact
         uses: actions/upload-artifact@v4
