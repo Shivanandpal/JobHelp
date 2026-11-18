@@ -1,0 +1,91 @@
+{
+  "manifest_version": 3,
+  "name": "AutoApply & Recruiter Mail Tracker",
+  "version": "1.0.0",
+  "description": "Autonomous multi-platform job application, recruiter Gmail tracking & 1-click MCQ review",
+  "permissions": [
+    "storage",
+    "identity",
+    "activeTab",
+    "scripting",
+    "alarms",
+    "sidePanel",
+    "tabs",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.indeed.com/*",
+    "https://*.naukri.com/*",
+    "http://localhost:4000/*"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "AutoApply Tracker"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/linkedin.ts-CU1U7w9F.js"
+      ],
+      "matches": [
+        "https://*.linkedin.com/*"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "js": [
+        "assets/indeed.ts-kPNsZzJc.js"
+      ],
+      "matches": [
+        "https://*.indeed.com/*"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "js": [
+        "assets/naukri.ts-DtY3cYof.js"
+      ],
+      "matches": [
+        "https://*.naukri.com/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://*.linkedin.com/*"
+      ],
+      "resources": [
+        "assets/linkedin.ts-CU1U7w9F.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://*.indeed.com/*"
+      ],
+      "resources": [
+        "assets/indeed.ts-kPNsZzJc.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://*.naukri.com/*"
+      ],
+      "resources": [
+        "assets/naukri.ts-DtY3cYof.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

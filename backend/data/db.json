@@ -1,0 +1,238 @@
+{
+  "users": {
+    "e05a631d-991b-46b1-bdd9-8c05542cb9ca": {
+      "id": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "email": "candidate.jobseeker@gmail.com",
+      "name": "Alex Candidate",
+      "createdAt": "2026-11-18T19:03:02.608Z",
+      "updatedAt": "2026-11-18T19:03:02.608Z"
+    }
+  },
+  "resumes": {},
+  "jobs": {
+    "94702cbf-921a-4d5a-8f0d-4d7feb40f826": {
+      "id": "94702cbf-921a-4d5a-8f0d-4d7feb40f826",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Senior Frontend Engineer",
+      "company": "FinTech Innovations",
+      "location": "Bangalore (Hybrid)",
+      "platform": "naukri",
+      "jobUrl": "https://naukri.com/job-101",
+      "appliedDate": "2026-11-18T10:56:23.417Z",
+      "status": "SHORTLISTED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-13T19:03:02.648Z",
+          "note": "Applied automatically"
+        },
+        {
+          "status": "SHORTLISTED",
+          "timestamp": "2026-11-18T19:03:02.648Z",
+          "note": "Status updated"
+        },
+        {
+          "status": "SHORTLISTED",
+          "timestamp": "2026-11-18T19:03:02.689Z",
+          "note": "Auto-updated from recruiter email: \"Your CV was shortlisted by FinTech Innovations\""
+        }
+      ],
+      "recruiterEmail": "alerts@naukri.com",
+      "recruiterName": "Naukri Recruiter Alert",
+      "feedbackRequested": false
+    },
+    "dd22bbd8-8b50-426b-a761-39f7920d1ce9": {
+      "id": "dd22bbd8-8b50-426b-a761-39f7920d1ce9",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Full Stack Developer",
+      "company": "TechCorp Solutions",
+      "location": "Remote",
+      "platform": "linkedin",
+      "jobUrl": "https://linkedin.com/jobs/view/202",
+      "appliedDate": "2026-11-15T23:34:52.186Z",
+      "status": "REJECTED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-13T19:03:02.651Z",
+          "note": "Applied automatically"
+        },
+        {
+          "status": "REJECTED",
+          "timestamp": "2026-11-18T19:03:02.651Z",
+          "note": "Status updated"
+        },
+        {
+          "status": "REJECTED",
+          "timestamp": "2026-11-18T19:03:02.673Z",
+          "note": "Auto-updated from recruiter email: \"Update on your Software Engineer application at TechCorp\""
+        }
+      ],
+      "recruiterEmail": "sarah.jenkins@techcorp.io",
+      "recruiterName": "Sarah Jenkins",
+      "feedbackRequested": false
+    },
+    "210be5c6-db55-4fbe-9716-78e427e150b6": {
+      "id": "210be5c6-db55-4fbe-9716-78e427e150b6",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "React & Node.js Specialist",
+      "company": "CloudScale Systems",
+      "location": "Hyderabad",
+      "platform": "indeed",
+      "jobUrl": "https://indeed.com/viewjob?jk=303",
+      "appliedDate": "2026-11-16T05:12:49.016Z",
+      "status": "INTERVIEW_SCHEDULED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-13T19:03:02.654Z",
+          "note": "Applied automatically"
+        },
+        {
+          "status": "INTERVIEW_SCHEDULED",
+          "timestamp": "2026-11-18T19:03:02.654Z",
+          "note": "Status updated"
+        },
+        {
+          "status": "INTERVIEW_SCHEDULED",
+          "timestamp": "2026-11-18T19:03:02.681Z",
+          "note": "Auto-updated from recruiter email: \"Invitation to Technical Discussion: CloudScale Systems\""
+        }
+      ],
+      "recruiterEmail": "alex.rivera@cloudscale.net",
+      "recruiterName": "Alex Rivera (Talent Acquisition)",
+      "feedbackRequested": false
+    },
+    "c9e129e2-d0c2-47ae-b23a-f7ccec53507a": {
+      "id": "c9e129e2-d0c2-47ae-b23a-f7ccec53507a",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Software Engineer II",
+      "company": "Global Retail Labs",
+      "location": "Gurgaon",
+      "platform": "linkedin",
+      "jobUrl": "https://linkedin.com/jobs/view/404",
+      "appliedDate": "2026-11-14T03:25:52.699Z",
+      "status": "VIEWED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-13T19:03:02.657Z",
+          "note": "Applied automatically"
+        },
+        {
+          "status": "VIEWED",
+          "timestamp": "2026-11-18T19:03:02.657Z",
+          "note": "Status updated"
+        }
+      ],
+      "feedbackRequested": false
+    },
+    "0a6c80b9-c95c-4d48-9acd-7d350f0fb373": {
+      "id": "0a6c80b9-c95c-4d48-9acd-7d350f0fb373",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Frontend Engineer (Vue/React)",
+      "company": "NexGen Digital",
+      "location": "Pune",
+      "platform": "naukri",
+      "jobUrl": "https://naukri.com/job-505",
+      "appliedDate": "2026-11-14T02:29:35.759Z",
+      "status": "NOT_VIEWED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-13T19:03:02.660Z",
+          "note": "Applied automatically"
+        },
+        {
+          "status": "NOT_VIEWED",
+          "timestamp": "2026-11-18T19:03:02.660Z",
+          "note": "Status updated"
+        }
+      ],
+      "feedbackRequested": false
+    },
+    "80410251-cc66-449a-ac01-10fed61c2753": {
+      "id": "80410251-cc66-449a-ac01-10fed61c2753",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Remote React / Full-Stack Developer",
+      "company": "Pulptopixel",
+      "location": "Remote / Hybrid",
+      "platform": "naukri",
+      "jobUrl": "https://www.naukri.com/job-listings-remote-react-full-stack-developer-pulptopixel-bengaluru-delhi-ncr-mumbai-all-areas-0-to-5-years-221026007675?src=directSearch&sid=17950312499127706&xp=2&px=1",
+      "appliedDate": "2026-11-18T19:48:07.880Z",
+      "status": "APPLIED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-18T19:48:07.880Z",
+          "note": "Applied automatically via NAUKRI"
+        }
+      ],
+      "feedbackRequested": false
+    },
+    "66e1db7e-b1c3-41ff-b964-870b7861eca2": {
+      "id": "66e1db7e-b1c3-41ff-b964-870b7861eca2",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "jobTitle": "Backend Coordinator",
+      "company": "Network Techlab\n3.6234 Reviews",
+      "location": "Remote / Hybrid",
+      "platform": "naukri",
+      "jobUrl": "https://www.naukri.com/job-listings-backend-coordinator-network-techlab-mumbai-suburban-thane-navi-mumbai-mumbai-all-areas-0-to-3-years-281026001662",
+      "appliedDate": "2026-11-18T20:04:15.692Z",
+      "status": "APPLIED",
+      "statusHistory": [
+        {
+          "status": "APPLIED",
+          "timestamp": "2026-11-18T20:04:15.692Z",
+          "note": "Applied automatically via NAUKRI"
+        }
+      ],
+      "feedbackRequested": false
+    }
+  },
+  "emails": {
+    "24532692-8293-4037-be04-402af8ad7491": {
+      "threadId": "thread_1",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "recruiterName": "Sarah Jenkins",
+      "recruiterEmail": "sarah.jenkins@techcorp.io",
+      "company": "TechCorp Solutions",
+      "subject": "Update on your Software Engineer application at TechCorp",
+      "snippet": "Thank you for your interest. Unfortunately, after careful consideration, we have decided to pursue other candidates whose skills more closely align...",
+      "bodyText": "Thank you for taking the time to speak with us. Unfortunately, we will not be moving forward with your candidacy at this time.",
+      "receivedAt": "2026-11-18T17:03:02.668Z",
+      "detectedStatus": "REJECTED",
+      "id": "24532692-8293-4037-be04-402af8ad7491",
+      "matchedApplicationId": "dd22bbd8-8b50-426b-a761-39f7920d1ce9"
+    },
+    "faf511d8-66ab-427b-8993-e1cc344cde93": {
+      "threadId": "thread_2",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "recruiterName": "Alex Rivera (Talent Acquisition)",
+      "recruiterEmail": "alex.rivera@cloudscale.net",
+      "company": "CloudScale Systems",
+      "subject": "Invitation to Technical Discussion: CloudScale Systems",
+      "snippet": "We were very impressed with your background in React and TypeScript. We would love to schedule a 30-minute introductory call this week.",
+      "bodyText": "We were impressed with your application and would like to schedule an interview round with our engineering lead.",
+      "receivedAt": "2026-11-18T05:03:02.668Z",
+      "detectedStatus": "INTERVIEW_SCHEDULED",
+      "id": "faf511d8-66ab-427b-8993-e1cc344cde93",
+      "matchedApplicationId": "210be5c6-db55-4fbe-9716-78e427e150b6"
+    },
+    "ab65156c-59b5-475e-82d1-2268d1ed88be": {
+      "threadId": "thread_3",
+      "userId": "e05a631d-991b-46b1-bdd9-8c05542cb9ca",
+      "recruiterName": "Naukri Recruiter Alert",
+      "recruiterEmail": "alerts@naukri.com",
+      "company": "FinTech Innovations",
+      "subject": "Your CV was shortlisted by FinTech Innovations",
+      "snippet": "Congratulations! Your profile has been shortlisted for the Senior Frontend Engineer role in Bangalore.",
+      "bodyText": "Your profile has been shortlisted. The recruiter will reach out shortly.",
+      "receivedAt": "2026-11-17T15:03:02.668Z",
+      "detectedStatus": "SHORTLISTED",
+      "id": "ab65156c-59b5-475e-82d1-2268d1ed88be",
+      "matchedApplicationId": "94702cbf-921a-4d5a-8f0d-4d7feb40f826"
+    }
+  },
+  "reviews": {}
+}

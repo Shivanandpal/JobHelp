@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "AutoApply & Recruiter Mail Tracker",
+  "version": "1.0.0",
+  "description": "Autonomous multi-platform job application, recruiter Gmail tracking & 1-click MCQ review",
+  "permissions": [
+    "storage",
+    "identity",
+    "activeTab",
+    "scripting",
+    "alarms",
+    "sidePanel",
+    "tabs",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.indeed.com/*",
+    "https://*.naukri.com/*",
+    "http://localhost:4000/*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "AutoApply Tracker"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.linkedin.com/*"],
+      "js": ["src/content-scripts/linkedin.ts"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://*.indeed.com/*"],
+      "js": ["src/content-scripts/indeed.ts"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://*.naukri.com/*"],
+      "js": ["src/content-scripts/naukri.ts"],
+      "run_at": "document_idle"
+    }
+  ]
+}
